@@ -8,6 +8,7 @@ import { TestimonialsSection } from "@/components/testimonials-section"
 import { FAQSection } from "@/components/faq-section"
 import { CTASection } from "@/components/cta-section"
 import { GallerySection } from "@/components/gallery-section"
+import { PricingSection } from "@/components/pricing-section"
 import { Navbar } from "@/components/navbar"
 import { Footer } from "@/components/footer"
 
@@ -26,6 +27,7 @@ export default function Index() {
         <section id="safety">
           <SafetySection />
         </section>
+        <PricingSection />
         <GallerySection />
         <TestimonialsSection />
         <section id="faq">
