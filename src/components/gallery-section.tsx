@@ -51,6 +51,11 @@ const photos = [
     title: "Прошивка Hyundai",
     desc: "Прошивка и корректировка данных",
   },
+  {
+    url: "https://cdn.poehali.dev/projects/aa99f139-5e44-4617-807b-c0255797a2a4/bucket/8c36f3ef-5407-4433-a37d-993add81b023.jpg",
+    title: "Пересвет — оранжевая подсветка",
+    desc: "Яркий пересвет всех шкал в оранжевый цвет",
+  },
 ]
 
 export function GallerySection() {
