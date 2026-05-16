@@ -9,6 +9,7 @@ import { FAQSection } from "@/components/faq-section"
 import { CTASection } from "@/components/cta-section"
 import { GallerySection } from "@/components/gallery-section"
 import { PricingSection } from "@/components/pricing-section"
+import { CoverSection } from "@/components/cover-section"
 import { Navbar } from "@/components/navbar"
 import { Footer } from "@/components/footer"
 
@@ -18,6 +19,7 @@ export default function Index() {
       <Navbar />
       <main>
         <Hero3D />
+        <CoverSection />
         <FeaturesSection />
         <section id="technology">
           <TechnologySection />
