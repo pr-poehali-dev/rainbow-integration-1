@@ -26,6 +26,31 @@ const photos = [
     title: "Многоцветный пересвет",
     desc: "Синяя + красная подсветка всех шкал",
   },
+  {
+    url: "https://cdn.poehali.dev/projects/aa99f139-5e44-4617-807b-c0255797a2a4/bucket/6bb8e516-e1eb-408f-9a26-320fa91516bc.jpg",
+    title: "Магнитола Lada Granta",
+    desc: "Установка и настройка штатной магнитолы",
+  },
+  {
+    url: "https://cdn.poehali.dev/projects/aa99f139-5e44-4617-807b-c0255797a2a4/bucket/6e7a364d-5056-4338-b900-d59f436f86ed.jpg",
+    title: "Пересвет — синий Hyundai",
+    desc: "Синяя подсветка комбинации приборов",
+  },
+  {
+    url: "https://cdn.poehali.dev/projects/aa99f139-5e44-4617-807b-c0255797a2a4/bucket/82f7a7d3-5f33-45c1-a15f-93691055ac7c.jpg",
+    title: "Прошивка Chevrolet",
+    desc: "Прошивка и диагностика комбинации",
+  },
+  {
+    url: "https://cdn.poehali.dev/projects/aa99f139-5e44-4617-807b-c0255797a2a4/bucket/d992fa91-c701-410e-95be-22b8eed383d5.jpg",
+    title: "Пересвет — синий + красный",
+    desc: "Двухцветный пересвет шкал",
+  },
+  {
+    url: "https://cdn.poehali.dev/projects/aa99f139-5e44-4617-807b-c0255797a2a4/bucket/9aaf2407-8ca9-404f-9088-95257f970395.jpg",
+    title: "Прошивка Hyundai",
+    desc: "Прошивка и корректировка данных",
+  },
 ]
 
 export function GallerySection() {
