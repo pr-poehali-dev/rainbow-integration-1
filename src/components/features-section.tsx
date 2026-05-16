@@ -3,40 +3,40 @@ import { Badge } from "@/components/ui/badge"
 
 const features = [
   {
-    title: "Адаптивная нейрообработка",
-    description: "Самооптимизирующиеся алгоритмы, которые обучаются на нейронных паттернах и улучшают интерпретацию сигналов.",
-    icon: "brain",
-    badge: "ИИ",
-  },
-  {
-    title: "Медицинская защита",
-    description: "Шифрование по стандартам FDA со сквозной защитой конфиденциальных нейронных данных.",
-    icon: "lock",
-    badge: "Сертификат",
-  },
-  {
-    title: "Интуитивное управление",
-    description: "Естественная трансляция мыслей в действия с откликом менее миллисекунды и точностью 99,7%.",
-    icon: "globe",
-    badge: "Точность",
-  },
-  {
-    title: "Предиктивная калибровка",
-    description: "ML-модели, которые предугадывают намерения пользователя и оптимизируют нейронные пути.",
+    title: "Прошивка комбинации",
+    description: "Перепрошивка блока комбинации приборов: корректировка пробега, адаптация под другой двигатель, устранение ошибок.",
     icon: "zap",
-    badge: "Умный",
+    badge: "Прошивка",
   },
   {
-    title: "Биометрическая интеграция",
-    description: "Бесшовная синхронизация с мониторингом жизненных показателей для контроля здоровья.",
-    icon: "link",
-    badge: "Связь",
-  },
-  {
-    title: "Поддержка XR",
-    description: "Нативная совместимость с AR/VR-средами для терапевтических и рабочих приложений.",
+    title: "Пересвет приборов",
+    description: "Замена штатной подсветки на светодиодную. Любой цвет: белый, синий, красный, зелёный — под стиль салона.",
     icon: "target",
-    badge: "XR Ready",
+    badge: "Подсветка",
+  },
+  {
+    title: "Любые марки авто",
+    description: "Работаем с BMW, Mercedes, Audi, Volkswagen, Toyota, Ford, Kia, Hyundai, Lada и многими другими марками.",
+    icon: "globe",
+    badge: "Все марки",
+  },
+  {
+    title: "Восстановление дисплея",
+    description: "Ремонт пикселей и замена матрицы информационного дисплея, восстановление сегментных индикаторов.",
+    icon: "brain",
+    badge: "Дисплей",
+  },
+  {
+    title: "Гарантия на работу",
+    description: "Гарантия 6 месяцев на все виды работ. Проверка работоспособности перед выдачей клиенту.",
+    icon: "lock",
+    badge: "Гарантия",
+  },
+  {
+    title: "Быстрые сроки",
+    description: "Большинство работ выполняем за 1–2 дня. Срочные заказы — в день обращения при наличии запчастей.",
+    icon: "link",
+    badge: "Быстро",
   },
 ]
 
@@ -45,9 +45,9 @@ export function FeaturesSection() {
     <section className="py-24 px-6 bg-background">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold text-foreground mb-4 font-sans">Возможности нового поколения</h2>
+          <h2 className="text-4xl font-bold text-foreground mb-4 font-sans">Что мы делаем</h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto leading-relaxed">
-            Почувствуйте будущее с технологиями, которые переопределяют возможное
+            Профессиональный сервис по прошивке и пересвету комбинаций приборов любых автомобилей
           </p>
         </div>
 
@@ -61,12 +61,12 @@ export function FeaturesSection() {
               <CardHeader>
                 <div className="flex items-center justify-between mb-2">
                   <span className="text-3xl">
-                    {feature.icon === "brain" && "&#129504;"}
-                    {feature.icon === "lock" && "&#128274;"}
-                    {feature.icon === "globe" && "&#127760;"}
-                    {feature.icon === "zap" && "&#9889;"}
-                    {feature.icon === "link" && "&#128279;"}
-                    {feature.icon === "target" && "&#127919;"}
+                    {feature.icon === "brain" && "🖥️"}
+                    {feature.icon === "lock" && "🛡️"}
+                    {feature.icon === "globe" && "🚗"}
+                    {feature.icon === "zap" && "⚡"}
+                    {feature.icon === "link" && "⏱️"}
+                    {feature.icon === "target" && "💡"}
                   </span>
                   <Badge variant="secondary" className="bg-accent text-accent-foreground">
                     {feature.badge}
